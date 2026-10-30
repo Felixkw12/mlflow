@@ -91,6 +91,17 @@ export const OPENAI_COMPATIBLE_GATEWAYS: OpenAICompatibleGateway[] = [
     prerequisite:
       'Create a <ins><a href="https://portkey.ai/">Portkey account</a></ins> and generate an API key from the <ins><a href="https://app.portkey.ai/api-keys">API Keys page</a></ins>. Configure your virtual keys for the LLM providers you want to use.',
   },
+  {
+    id: 'opper',
+    name: 'Opper',
+    description:
+      '<a href="https://opper.ai/">Opper</a> is an EU-hosted AI gateway that provides access to 700+ models from 50+ providers like OpenAI, Anthropic, Google, and Mistral through a single OpenAI-compatible API. Requests can be pinned to EU-hosted regions.',
+    baseUrl: 'https://api.opper.ai/v3/compat',
+    apiKeyPlaceholder: '<YOUR_OPPER_API_KEY>',
+    sampleModel: 'claude-sonnet-4-6',
+    prerequisite:
+      'Before following the steps below, you need to create an <ins><a href="https://platform.opper.ai/">Opper account</a></ins> and generate an API key from the API Keys page.',
+  },
 ];
 
 export function getGateway(id: string): OpenAICompatibleGateway | undefined {

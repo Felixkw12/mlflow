@@ -567,6 +567,11 @@ const sidebarsGenAI: SidebarsConfig = {
                 },
                 {
                   type: 'doc',
+                  id: 'tracing/integrations/listing/opper',
+                  label: 'Opper',
+                },
+                {
+                  type: 'doc',
                   id: 'tracing/integrations/listing/portkey',
                   label: 'Portkey',
                 },

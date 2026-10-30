@@ -570,6 +570,13 @@ const TRACING_INTEGRATIONS: TracingIntegration[] = [
     category: 'Gateways',
   },
   {
+    id: 'opper',
+    name: 'Opper',
+    logoPath: '/images/logos/opper-logo.svg',
+    link: '/genai/tracing/integrations/listing/opper',
+    category: 'Gateways',
+  },
+  {
     id: 'langflow',
     name: 'Langflow',
     logoPath: '/images/logos/langflow.svg',
